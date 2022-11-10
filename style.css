@@ -7,6 +7,7 @@ body {
 
 button {
     background-color: #3882f6;
+    color: white;
 }
 
 /* Header */
@@ -90,4 +91,79 @@ a {
 .hero-image img {
     width: 500px;
     height: auto;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+
+/* Random info */
+
+.random {
+    display: flex;
+    background-color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.random-header {
+    color: #1f2937;
+    text-align: center;
+}
+
+.random-images{ 
+    display: flex;
+}
+
+.column img {
+    flex: 25%;
+    width: 250px;
+    height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.random-images p {
+    font-size: small;
+}
+
+/* Quote */
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.quote .quote-text {
+    color: #1f2937;
+    font-style: italic;
+    padding-left: 300px;
+    text-align: center;
+}
+
+.quote .signature {
+    padding-top: 100px;
+    padding-right: 300px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.cta-header {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 36px;;
+    font-weight: bold;
 }
